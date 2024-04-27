@@ -1,2 +1,2 @@
 # Health-Management-System
-Project for the course CSE327(Software Engineering) in NSU. 
+A software management system project to manage a user's health and fitness. This project is done for the CSE327(Software Engineering) course at North South University.
