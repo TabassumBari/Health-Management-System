@@ -1,0 +1,48 @@
+﻿Tracking Daily Health And Fitness Activities
+
+
+
+Use Case Scenario: User setting goals and tracking them.
+
+
+
+
+Actors: User, System.
+
+
+
+Scenario/Description:
+         
+1. The user wants to set a weight loss goal.
+2. The user wants to track workout activities.
+
+
+
+
+
+Pre-conditions:
+       
+
+
+1.   The user has an internet-connected device to access the website.
+2.   The user has an active profile.
+3. The website’s fitness activities, exercises, and plans are accessible to the user.
+4. The user has defined their fitness goals on the website.
+
+
+
+
+Post-conditions: 
+   
+1. The user has successfully created their fitness goals.
+2. The website is tracking their goals perfectly.
+3. The user receives recommendations according to their activities.
+  
+  
+  
+  Exceptions:
+
+
+1. Setting unrealistic goals.
+2. Inaccurate progress tracking. The system fails to track accurate activities.
+3. The system fails to track activities at all.
