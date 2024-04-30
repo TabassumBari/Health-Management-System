@@ -1,0 +1,54 @@
+﻿Tracking Daily Health And Fitness Activities
+
+
+Use Case Scenario: User creating a profile on the website.
+
+
+
+
+Actors:  User, System.
+
+
+
+
+Scenario/Description:
+
+
+
+1. A user wants to create a profile on the “HealthFit Hub” website.
+2. He browses the website on his internet-connected device.
+3. Fill up the form to create a profile.
+4. Verifies the information.
+
+
+
+
+Pre-Condition: 
+
+
+1. The user has access to the internet with a device.
+2.  The user has a valid email ID/ phone number.
+3. The user fills up the form with his name, age, weight etc.
+4. Creates a password and user name to access the profile later.
+5. The user doesn’t have a profile created previously.
+6. The user agrees to the terms and conditions of the website.
+
+
+
+
+Post- Conditions:
+ 
+1. The user is registered on the website successfully.
+2. He can log into his profile on the website later too.
+
+
+
+
+
+Exceptions:
+
+
+  
+1. If the user has an invalid/duplicate email address.
+2. Password strength is not good.
+3. The server isn’t responding.
