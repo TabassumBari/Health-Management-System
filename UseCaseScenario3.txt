@@ -1,0 +1,54 @@
+﻿Tracking Daily Health And Fitness Activities
+
+
+
+Use Case Scenario: Nutritional Guidance  
+
+
+
+
+Actors:  User, System
+
+
+
+
+
+
+Scenario/Description:
+    
+1. The user wants to create a meal plan specified to his/her diet plan.
+2. The user wants to track daily food intake and wants to calculate calories.
+
+
+
+
+
+Pre-conditions:
+
+
+1. The user successfully logs into his/her account on the website.
+2. The user can access the nutrition database on the website.
+3. The user can define his/her dietary plan and goals.
+
+
+
+
+
+
+Post-conditions:
+      
+1. The user successfully creates a dietary plan aligned with their goals.
+2. The user's daily food intake is successfully tracked on the website.
+3. The user can change the diet plan according to their preferences.
+
+
+
+
+Exceptions:
+
+
+
+
+1. Incomplete dietary information given by the user.
+2. The user didn’t provide any allergy information.
+3. If there is any kind of technical glitch on the website.
