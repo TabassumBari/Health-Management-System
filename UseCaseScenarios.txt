@@ -1,0 +1,257 @@
+﻿Tracking Daily Health And Fitness Activities
+
+
+Use Case Scenario: User creating a profile on the website.
+
+
+
+
+Actors:  User, System.
+
+
+
+
+
+
+Scenario/Description:
+
+
+
+
+1. A user wants to create a profile on the “HealthFit Hub” website.
+2. He browses the website on his internet-connected device.
+3. Fill up the form to create a profile.
+4. Verifies the information.
+
+
+
+
+Pre-Condition: 
+
+
+
+
+1. The user has access to the internet with a device.
+2.  The user has a valid email ID/ phone number.
+3. The user fills up the form with his name, age, weight etc.
+4. Creates a password and user name to access the profile later.
+5. The user doesn’t have a profile created previously.
+6. The user agrees to the terms and conditions of the website.
+
+
+
+
+
+
+
+
+
+
+
+
+Post- Conditions:
+ 
+1. The user is registered on the website successfully.
+2. He can log into his profile on the website later too.
+
+
+
+
+
+
+
+
+
+
+
+
+Exceptions:
+
+
+  
+1. If the user has an invalid/duplicate email address.
+2. Password strength is not good.
+3. The server isn’t responding.
+
+
+
+
+
+
+Use Case Scenario: User setting goals and tracking them.
+
+
+
+
+Actors: User, System.
+
+
+
+
+
+
+Scenario/Description:
+         
+1. The user wants to set a weight loss goal.
+2. The user wants to track workout activities.
+
+
+
+
+
+
+Pre-conditions:
+       
+
+
+1.   The user has an internet-connected device to access the website.
+2.   The user has an active profile.
+3. The website’s fitness activities, exercises, and plans are accessible to the user.
+4. The user has defined their fitness goals on the website.
+
+
+
+
+Post-conditions: 
+   
+1. The user has successfully created their fitness goals.
+2. The website is tracking their goals perfectly.
+3. The user receives recommendations according to their activities.
+  Exceptions:
+
+
+1. Setting unrealistic goals.
+2. Inaccurate progress tracking. The system fails to track accurate activities.
+3. The system fails to track activities at all.
+
+
+
+
+
+
+
+
+
+
+ Use Case Scenario: Nutritional Guidance  
+
+
+
+
+Actors:  User, System
+
+
+
+
+
+
+Scenario/Description:
+    
+1. The user wants to create a meal plan specified to his/her diet plan.
+2. The user wants to track daily food intake and wants to calculate calories.
+
+
+
+
+
+
+
+
+Pre-conditions:
+
+
+1. The user successfully logs into his/her account on the website.
+2. The user can access the nutrition database on the website.
+3. The user can define his/her dietary plan and goals.
+
+
+
+
+
+
+Post-conditions:
+      
+1. The user successfully creates a dietary plan aligned with their goals.
+2. The user's daily food intake is successfully tracked on the website.
+3. The user can change the diet plan according to their preferences.
+
+
+
+
+
+
+
+
+
+
+
+
+Exceptions:
+
+
+
+
+1. Incomplete dietary information given by the user.
+2. The user didn’t provide any allergy information.
+3. If there is any kind of technical glitch on the website.
+
+
+
+
+
+
+Use Case Scenario: Progress Analysis
+
+
+
+
+Actor: User, System.
+
+
+
+
+
+
+Scenario/Description:
+
+
+1. The user may want weekly/monthly/yearly progress reports.
+2. The user wants to see if the targeted goals have been filled up or not.
+
+
+
+
+
+
+Pre-condition:
+ 
+1. The user successfully logs into the account on the “HealthFitHub” website.
+2. The user updates and tracks his/her daily activities, and health parameters on the website.
+3. The website’s progress analysis and reporting is functional and accessible to the user.
+
+
+
+
+
+
+
+
+
+
+
+
+Post-conditions:
+
+
+1. The user receives an analysis of his/her activities. The progress that he/she made.
+2. Recommendations from the website on how to improve performance.
+3. The user can adjust his/her fitness goals according to the suggestions.
+
+
+
+
+       
+        Exceptions:
+  
+1. Insufficient data for analysis.
+2. Technical glitch on the website.
