@@ -1,0 +1,334 @@
+﻿Tracking Daily Health And Fitness Activities
+
+
+1. Use Case Scenario: User creating a profile on the website.
+
+
+
+
+Actors:  User, System.
+
+
+
+
+
+
+Scenario/Description:
+
+
+
+
+1. A user wants to create a profile on the “HealthFit Hub” website.
+2. He browses the website on his internet-connected device.
+3. Fill up the form to create a profile.
+4. Verifies the information.
+
+
+
+
+Pre-Condition: 
+
+
+
+
+1. The user has access to the internet with a device.
+2.  The user has a valid email ID/ phone number.
+3. The user fills up the form with his name, age, weight etc.
+4. Creates a password and user name to access the profile later.
+5. The user doesn’t have a profile created previously.
+6. The user agrees to the terms and conditions of the website.
+
+
+
+
+
+
+
+
+
+
+
+
+Post- Conditions:
+ 
+1. The user is registered on the website successfully.
+2. He can log into his profile on the website later too.
+
+
+
+
+
+
+
+
+
+
+
+
+Exceptions:
+
+
+  
+1. If the user has an invalid/duplicate email address.
+2. Password strength is not good.
+3. The server isn’t responding.
+
+
+
+
+2. Use Case Scenario: The user wants to input health data on the website.
+
+
+
+
+Actors: User, System.
+
+
+
+
+Scenario/Description:
+
+
+1. The user wants to track his/her miles, workout goals, and weight check on the website.
+
+
+
+
+Pre-Condition: 
+
+
+1. The user has an active account on the website.
+2. The user has an internet-connected device.
+3. The user can input the data on the website.
+4. The website can track the activities.
+
+
+
+
+Post-Conditions:
+
+
+1. The user successfully inputs the data.
+2. The website successfully tracks the activities.
+3. Health data are successfully stored on the website.
+
+
+
+
+Exception:
+
+
+1. Insufficient data.
+2. Technical glitch on the website.
+3. The website is unable to track activities.
+
+
+
+
+
+
+
+
+
+
+3. Use Case Scenario: The user wants to book/cancel/reschedule an appointment with a health professional.
+
+
+
+
+Actors: User, System.
+
+
+
+
+
+
+Scenario/Description:
+         
+1. The user wants to get an appointment with a doctor.
+2. The user can want a specialist in any health issues.
+3. The user wants to book an appointment at a particular time or wants to cancel or reschedule.
+
+
+
+
+Pre-conditions:
+       
+
+
+1.   The user has an internet-connected device to access the website.
+2.   The user has an active profile.
+3.   The website’s nearby doctor/specialist list in the hospitals/clinics is accessible to the user.
+4.   The user can search according to his/her needs.
+
+
+
+
+Post-conditions: 
+   
+1. The user has successfully found a nearby doctor/specialist to help him/her.
+2. The user booked an appointment with the doctor through the website successfully.
+3. If the user cancels the appointment the time slot for that appointment will be free. 
+4. If he/she reschedules the appointment slot changes on both the doctor's and the user’s side.
+5. The user receives a confirmation regarding the appointment in any of the cases.
+  
+Exceptions:
+
+
+1. The website fails to show nearby doctors/hospitals.
+2. Invalid time slot for the appointment.
+3.  The user didn’t receive confirmation/notification.
+
+
+
+
+
+
+
+
+
+
+4. Use Case Scenario: Getting notifications. 
+
+
+
+
+Actors:  User, System
+
+
+
+
+
+
+Scenario/Description:
+    
+1. The user wants to have notifications regarding daily health activities/payment issues/confirmation regarding appointments from the website.
+2. The user wants to be updated daily.
+
+
+
+
+
+
+
+
+Pre-conditions:
+
+
+1. The user successfully logs into his/her account on the website.
+2. The user has an active internet-connected device.
+3. The user can access the database on the website regarding health such as tracking steps, drinking water, calories burnt, etc. 
+4. The user can access the payment and appointment details.
+5. The user can define what notifications he/she particularly wants and doesn't want.
+
+
+
+
+
+
+
+
+Post-conditions:
+      
+1. The user successfully gets notifications from the website on various topics.
+2. The user's daily activity is well tracked by the website.
+3. The user can customize which notifications he/she wants.
+
+
+
+
+
+
+
+
+
+
+
+
+Exceptions:
+
+
+
+
+1. Incomplete data on the website.
+2. The website is unable to track activities.
+3. If there is any kind of technical glitch on the website.
+4. The user’s device doesn't permit the website to push notifications.
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Use Case Scenario: Billing System
+
+
+
+
+Actor: User, System.
+
+
+
+
+ Scenario/Description:
+
+
+1. The user wants to pay bills in cash/card/mobile banking through the website for the appointments.
+2. The user wants to receive a bill receipt regarding the payment.
+
+
+
+
+
+
+Pre-condition:
+ 
+1. The user successfully logs into the account on the “HealthFitHub” website.
+2. The user has a payment way such as cash/card/online banking.
+3. The website redirects the user to whichever method he/she prefers.
+
+
+
+
+
+
+Post-conditions:
+
+
+1. The user receives the payment options and selects one.
+2. The user successfully pays the bill through the website.
+3. The user decides how to receive the receipt of the bill.
+
+
+
+
+        Exceptions:
+  
+1. The user clicks twice on the payment option and pays twice mistakenly.
+2. The website doesn't redirect to payment getaway. 
+3. Technical glitch on the website.
